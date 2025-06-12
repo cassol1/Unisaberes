@@ -1,0 +1,55 @@
+@font-face {
+  font-family:'Roboto';
+  src: url(Roboto/Roboto-Thin.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.centro { 
+  height: 100vh;
+  width: 200vh;
+  
+  align-items: center;
+justify-content: center;
+} 
+#Unisabereslogo {
+  width: 50vh;
+}
+#subtitulo {
+  width: 90vh;
+}
+.botoes {
+  width: 90vh;
+  text-align: center;
+  
+}
+.centro {
+display: flex;
+flex-flow:column wrap;
+align-items: center;
+justify-content: center;
+}
+
+h3 {
+  color: #a3d8de;
+  font-family:Arial;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto';
+}
+body {
+  margin: auto;
+}
+button {
+  border-radius: 5px;
+  border-width: 0cm;
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  color: white;
+}
+#botao1{
+background-color: #a3d8de;
+}
+#botao2{
+  background-color: #43b2be;
+}
